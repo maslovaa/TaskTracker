@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskTracker.Backend.Api", "TaskTracker.Backend.Api\TaskTracker.Backend.Api.csproj", "{B5AAB626-AB5B-4DC8-B063-39BA425BB6C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskTracker.Backend.Domain", "TaskTracker.Backend.Domain\TaskTracker.Backend.Domain.csproj", "{F82E1B30-BAB5-4938-BE4C-0CD0B53781A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5AAB626-AB5B-4DC8-B063-39BA425BB6C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5AAB626-AB5B-4DC8-B063-39BA425BB6C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5AAB626-AB5B-4DC8-B063-39BA425BB6C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5AAB626-AB5B-4DC8-B063-39BA425BB6C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F82E1B30-BAB5-4938-BE4C-0CD0B53781A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F82E1B30-BAB5-4938-BE4C-0CD0B53781A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F82E1B30-BAB5-4938-BE4C-0CD0B53781A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F82E1B30-BAB5-4938-BE4C-0CD0B53781A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
