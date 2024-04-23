@@ -3,29 +3,29 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "FRONT": {
+    "login-app": {
       "projectType": "application",
       "schematics": {},
-      "root": "",
-      "sourceRoot": "src",
+      "root": "projects/login-app",
+      "sourceRoot": "projects/login-app/src",
       "prefix": "app",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/front",
-            "index": "src/index.html",
-            "browser": "src/main.ts",
+            "outputPath": "dist/login-app",
+            "index": "projects/login-app/src/index.html",
+            "browser": "projects/login-app/src/main.ts",
             "polyfills": [
               "zone.js"
             ],
-            "tsConfig": "tsconfig.app.json",
+            "tsConfig": "projects/login-app/tsconfig.app.json",
             "assets": [
-              "src/favicon.ico",
-              "src/assets"
+              "projects/login-app/src/favicon.ico",
+              "projects/login-app/src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "projects/login-app/src/styles.css"
             ],
             "scripts": []
           },
@@ -57,10 +57,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "FRONT:build:production"
+              "buildTarget": "login-app:build:production"
             },
             "development": {
-              "buildTarget": "FRONT:build:development"
+              "buildTarget": "login-app:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -68,7 +68,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "FRONT:build"
+            "buildTarget": "login-app:build"
           }
         },
         "test": {
@@ -78,13 +78,13 @@
               "zone.js",
               "zone.js/testing"
             ],
-            "tsConfig": "tsconfig.spec.json",
+            "tsConfig": "projects/login-app/tsconfig.spec.json",
             "assets": [
-              "src/favicon.ico",
-              "src/assets"
+              "projects/login-app/src/favicon.ico",
+              "projects/login-app/src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "projects/login-app/src/styles.css"
             ],
             "scripts": []
           }
